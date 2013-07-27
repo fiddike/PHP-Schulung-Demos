@@ -16,11 +16,12 @@ $ vagrant up
 
 Point your web browser to: http://192.168.23.100/hello.php , you should see the output "hello!".
 
+Point you favorite SQL browser to 192.168.23.100 port 3306 , user root, no password to view and edit the mysql DB.
+
 All the executable demos are are in the web folder, have a look:
 ```
 $ cd PHP-Schulung-Demos.git
 $ cd web
-$ ls
+$ ls -lR
 ```
 
-Point you favorite SQL browser to 10.0.2.15 port 3306
