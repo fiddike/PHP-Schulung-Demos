@@ -103,18 +103,18 @@ file { "/etc/nginx/sites-enabled/default":
     ensure => absent,
 }
 
-exec { "php-schulung-demos-database":
+exec { "mysql":
     command => "mysql -u root -e 'CREATE DATABASE IF NOT EXISTS `php-schulung-demos`;'",
     require => Service["mysql"],
 }
 
-exec { "php-schulung-demos-access":
-    command => "mysql -u root -e 'GRANT ALL PRIVILEGES ON *.* TO `root`@`10.0.2.2` WITH GRANT OPTION; FLUSH PRIVILEGES;'",
+exec { "mysql-access":
+    command => "mysql -u root -e 'GRANT ALL PRIVILEGES ON *.* TO `root`@`%` WITH GRANT OPTION; FLUSH PRIVILEGES;'",
     require => Service["mysql"],
 }
 
 exec { "remote-access":
-    command => 'sed "s/bing-address/#bind-address/" -i /etc/mysql/my.cnf',
+    command => 'sed "s/bind-address/#bind-address/" -i /etc/mysql/my.cnf',
     require => Package["mysql-server"],
     notify => Service["mysql"],
 }
