@@ -94,7 +94,7 @@ exec { "update-fpm-user":
 file { "/etc/nginx/sites-enabled/php-schulung-demos.conf":
     path => "/etc/nginx/sites-enabled/php-schulung-demos.conf",
     ensure => present,
-    source => "/tmp/vagrant-puppet/manifests/php-schulung-demos",
+    source => "/tmp/vagrant-puppet/manifests/nginx",
     notify => Service["nginx"],
     require => Package["nginx"],
 }
