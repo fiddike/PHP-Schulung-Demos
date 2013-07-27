@@ -4,21 +4,14 @@ server {
     server_name _;
     root /vagrant/web;
 
-    error_log /var/log/nginx/symfony2.error.log;
-    access_log /var/log/nginx/symfony2.access.log;
+    error_log /var/log/nginx/PHP-Schulung-Demos.error.log;
+    access_log /var/log/nginx/PHP-Schulung-Demos.access.log;
 
-    rewrite ^/app\.php/?(.*)$ /$1 permanent;
-
-    location / {
-        index app.php;
-        try_files $uri @rewriteapp;
+    location  /  {
+        autoindex  on;
     }
 
-    location @rewriteapp {
-        rewrite ^(.*)$ /app_dev.php/$1 last;
-    }
-
-    location ~ ^/(app|app_dev)\.php(/|$) {
+    location ~ \.php(/|$) {
         fastcgi_pass   127.0.0.1:9000;
         fastcgi_split_path_info ^(.+\.php)(/.*)$;
         include fastcgi_params;
