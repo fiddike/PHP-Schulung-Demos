@@ -1,9 +1,10 @@
-Starting point for everything inside the vagrant folder was:
-https://github.com/kleiram/vagrant-symfony
-Thank you Ramon Kleiss for doing a great job in setting this up!
+Starting point for everything inside the vagrant folder was: https://github.com/kleiram/vagrant-symfony , thank you Ramon Kleiss for doing a great job in setting this up!
 
-This has been adapted to fit the needs of the project into which it was included.
-For the original, always access the above URL.
+This has been adapted to fit the needs of the project into which it was included. For the original, always access the above URL.
+
+All modifiactions and additions are:
+Copyright (c) 2013 Timon Schroeter <timon.schroeter@marketvalid.com>
+
 
 ==========================
 
