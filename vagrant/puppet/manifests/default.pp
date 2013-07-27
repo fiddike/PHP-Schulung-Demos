@@ -83,9 +83,21 @@ file { "/etc/php5/conf.d/xdebug.ini":
     notify => Service["php5-fpm"],
 }
 
-# Configure PHP-FPM user
+# Configure PHP-FPM
 exec { "update-fpm-user":
     command => "sudo sed -i 's/user = www-data/user = vagrant/' /etc/php5/fpm/pool.d/www.conf",
+    require => Package["php5-fpm"],
+    notify => Service["php5-fpm"],
+}
+
+exec { "display-php-errors":
+    command => 'sudo sed "s/^display_errors = Off/display_errors = On/" -i /etc/php5/fpm/php.ini',
+    require => Package["php5-fpm"],
+    notify => Service["php5-fpm"],
+}
+
+exec { "display-php-startup-errors":
+    command => 'sudo sed "s/^display_startup_errors = Off/display_startup_errors = On/" -i /etc/php5/fpm/php.ini',
     require => Package["php5-fpm"],
     notify => Service["php5-fpm"],
 }
