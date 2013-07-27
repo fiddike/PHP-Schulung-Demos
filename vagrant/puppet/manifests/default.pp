@@ -13,6 +13,16 @@ package { "curl":
     ensure => installed,
 }
 
+# Install VIM
+package { "vim":
+    ensure => installed,
+}
+
+# Install Screen
+package { "screen":
+    ensure => installed,
+}
+
 # Install MySQL server
 package { "mysql-server":
     ensure => installed,
@@ -45,16 +55,6 @@ package { "php5-fpm":
 service { "php5-fpm":
     ensure => running,
     require => Package["php5-fpm"],
-}
-
-# Install MongoDB
-package { "mongodb":
-    ensure => installed,
-}
-
-service { "mongodb":
-    ensure => running,
-    require => Package["mongodb"]
 }
 
 # Install SQLite
