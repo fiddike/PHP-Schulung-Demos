@@ -90,11 +90,11 @@ exec { "update-fpm-user":
     notify => Service["php5-fpm"],
 }
 
-# Setup Symfony
-file { "/etc/nginx/sites-enabled/symfony.conf":
-    path => "/etc/nginx/sites-enabled/symfony.conf",
+# Setup demo webserver
+file { "/etc/nginx/sites-enabled/php-schulung-demos.conf":
+    path => "/etc/nginx/sites-enabled/php-schulung-demos.conf",
     ensure => present,
-    source => "/tmp/vagrant-puppet/manifests/symfony",
+    source => "/tmp/vagrant-puppet/manifests/php-schulung-demos",
     notify => Service["nginx"],
     require => Package["nginx"],
 }
@@ -103,12 +103,12 @@ file { "/etc/nginx/sites-enabled/default":
     ensure => absent,
 }
 
-exec { "symfony-database":
-    command => "mysql -u root -e 'CREATE DATABASE IF NOT EXISTS `symfony`;'",
+exec { "php-schulung-demos-database":
+    command => "mysql -u root -e 'CREATE DATABASE IF NOT EXISTS `php-schulung-demos`;'",
     require => Service["mysql"],
 }
 
-exec { "symfony-access":
+exec { "php-schulung-demos-access":
     command => "mysql -u root -e 'GRANT ALL PRIVILEGES ON *.* TO `root`@`10.0.2.2` WITH GRANT OPTION; FLUSH PRIVILEGES;'",
     require => Service["mysql"],
 }
