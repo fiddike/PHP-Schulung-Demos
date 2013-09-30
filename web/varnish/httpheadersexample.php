@@ -54,6 +54,12 @@ if( isset( $_SERVER['HTTP_IF_MODIFIED_SINCE'] ) ) {
     print "<strong>If-Modified-Since</strong> has been sent in the"; print "request, value : " . $_SERVER['HTTP_IF_MODIFIED_SINCE'];
 } ?>
 <hr/>
-<h1>Links for testing</h1> <ul>
-    <ul> </body>
+<h1>Links for testing</h1>
+    <ul>
+        <li><a href="<?=$_SERVER['PHP_SELF']?>?h=expires">Test Expires response header</a></li>
+        <li><a href="<?=$_SERVER['PHP_SELF']?>?h=cache-control">Test Cache-Control response header</a></li>
+        <li><a href="<?=$_SERVER['PHP_SELF']?>?h=cache-control-override">Test Cache-Control response header overrides Expires</a></li> <li><a href="<?=$_SERVER['PHP_SELF']?>?h=last-modified">Test Last-Modified/If-modified-since response header</a></li>
+        <li><a href="<?=$_SERVER['PHP_SELF']?>?h=vary">Test Vary response header</a></li>
+    </ul>
+</body>
 </html>
