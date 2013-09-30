@@ -20,8 +20,9 @@ $ cd vagrant
 $ vagrant up
 ```
 
-Accessing Webserver and DB from the outside:
-* Point your web browser to: http://192.168.23.100/hello.php , you should see the output "hello!".
+Accessing Webserver, DB and Varnish from the outside:
+* Point your web browser to: http://192.168.23.100/hello.php , you should see the output "hello!" coming directly from the nginx webserver.
+* Point your web browser to: http://192.168.23.100:6081/hello.php , you should see the output "hello!" coming from the varnish cache. The http response will contain an X-Varnish header. The content will be cached for the default ttl of 120 seconds.
 * Point you favorite SQL browser to 192.168.23.100 port 3306 , user root, no password to view and edit the mysql DB.
 
 All the executable demos are are in the web folder, have a look:

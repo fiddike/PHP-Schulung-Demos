@@ -130,3 +130,19 @@ exec { "remote-access":
     require => Package["mysql-server"],
     notify => Service["mysql"],
 }
+
+# Install varnish
+package { "varnish":
+    ensure => installed,
+}
+
+service { "varnish":
+    ensure => running,
+    require => Package["varnish"],
+}
+
+exec { "varnish-on-default-high-port":
+    command => 'sudo sed "s/.port = \"8080\";/.port = \"80\";/" -i /etc/varnish/default.vcl',
+    require => Package["varnish"],
+    notify => Service["varnish"],
+}
