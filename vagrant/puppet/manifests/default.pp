@@ -102,6 +102,17 @@ exec { "display-php-startup-errors":
     notify => Service["php5-fpm"],
 }
 
+exec { "php-timezone-cli":
+    command => 'sudo sed "s/^;date.timezone =/date.timezone = Europe\/Berlin/" -i /etc/php5/cli/php.ini',
+    require => Package["php5-cli"],
+}
+
+exec { "php-timezone-fpm":
+    command => 'sudo sed "s/^;date.timezone =/date.timezone = Europe\/Berlin/" -i /etc/php5/fpm/php.ini',
+    require => Package["php5-fpm"],
+    notify => Service["php5-fpm"],
+}
+
 # Setup demo webserver
 file { "/etc/nginx/sites-enabled/php-schulung-demos.conf":
     path => "/etc/nginx/sites-enabled/php-schulung-demos.conf",
