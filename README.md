@@ -32,7 +32,8 @@ $ cd web
 $ ls -lR
 ```
 
-OPTIONAL: If you want to use the XDebug remote debugging feature on every request, ssh into the vagrant machine:
+OPTIONAL
+If you want to use the XDebug remote debugging feature on every request, ssh into the vagrant machine:
 ```
 $ cd PHP-Schulung-Demos.git
 $ cd vagrant
