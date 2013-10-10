@@ -32,3 +32,18 @@ $ cd web
 $ ls -lR
 ```
 
+OPTIONAL: If you want to use the XDebug remote debugging feature on every request, ssh into the vagrant machine:
+```
+$ cd PHP-Schulung-Demos.git
+$ cd vagrant
+$ vagrant ssh
+```
+Once inside, edit the xdebug config
+```
+$ sudo vim /etc/php5/conf.d/xdebug.ini
+```
+and set this value:
+```
+xdebug.remote_autostart=1
+```
+Now XDebug will try to connect to a remote debugger (e.g. PHPStorm on your host system) on every request and ever command line php execution.
