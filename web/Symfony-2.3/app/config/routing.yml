@@ -1,5 +1,10 @@
+php_schulung_de_form_demo:
+    resource: "@PhpSchulungDeFormDemoBundle/Controller/"
+    type:     annotation
+    prefix:   /form-demo/
+
 php_schulung_de_session_demo:
     resource: "@PhpSchulungDeSessionDemoBundle/Controller/"
     type:     annotation
-    prefix:   /
+    prefix:   /session-demo/
 
