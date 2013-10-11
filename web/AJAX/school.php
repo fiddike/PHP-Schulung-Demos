@@ -10,7 +10,8 @@ function getdetails(){
  url: "details.php",
  data: {fname:name, id:rno}
  }).done(function( result ) {
-        $("#msg").html( " Address of Roll no " +rno +" is "+result );
+        $("#msg").html( " We asked the server about this Name: &quot;" +name +"&quot; and this Role Number: &quot;" +rno +"&quot; " +
+            "and obtained this result: &quot;"+result +"&quot;");
     });
 }
 </script>
