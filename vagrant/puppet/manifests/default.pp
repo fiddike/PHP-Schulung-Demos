@@ -69,6 +69,7 @@ package { [
     "php5-intl",
     "php5-mysql",
     "php5-xdebug",
+    "php5-sqlite",
 ]:
     ensure => installed,
     require => [Package["php5-cli"], Package["php5-fpm"]],
