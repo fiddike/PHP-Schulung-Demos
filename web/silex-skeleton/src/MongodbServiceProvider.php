@@ -10,10 +10,10 @@ class MongodbServiceProvider implements ServiceProviderInterface
                 return new MongoClient();
         });
 
-        $app['nongoclient.venues'] = $app->share(function() use ($app) {
+        $app['mongoclient.venues'] = $app->share(function() use ($app) {
                 $app['mongo.database'];
 
-                return $app['nongoclient']->selectCollection(
+                return $app['mongoclient']->selectCollection(
                     $app['mongo.database'], 'venues'
                 );
             });
