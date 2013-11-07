@@ -1,0 +1,2337 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "response": {
+        "neighborhoods": [],
+        "venues": [
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_",
+                            "suffix": ".png"
+                        },
+                        "id": "4f2a25ac4b909258e854f55f",
+                        "name": "Neighborhood",
+                        "pluralName": "Neighborhoods",
+                        "primary": true,
+                        "shortName": "Neighborhood"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "count": 1,
+                            "items": [],
+                            "name": "Other people here",
+                            "type": "others"
+                        }
+                    ]
+                },
+                "id": "4c042fe239d476b03b2931a7",
+                "location": {
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 216,
+                    "lat": 52.51794445749753,
+                    "lng": 13.402419090270994,
+                    "postalCode": "10119",
+                    "state": "Berlin"
+                },
+                "name": "Berlin-Mitte",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 4487,
+                    "tipCount": 14,
+                    "usersCount": 1430
+                },
+                "url": "http://de.wikipedia.org/wiki/berlin-mitte",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_church_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d132941735",
+                        "name": "Church",
+                        "pluralName": "Churches",
+                        "primary": true,
+                        "shortName": "Church"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4adcda7cf964a520534721e3",
+                "location": {
+                    "address": "Am Lustgarten 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 207,
+                    "lat": 52.51850626869271,
+                    "lng": 13.400524183065595,
+                    "postalCode": "10178"
+                },
+                "name": "Berliner Dom",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 7137,
+                    "tipCount": 55,
+                    "usersCount": 6127
+                },
+                "url": "http://www.berlinerdom.de",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_",
+                            "suffix": ".png"
+                        },
+                        "id": "50aaa4314b90af0d42d5de10",
+                        "name": "Island",
+                        "pluralName": "Islands",
+                        "primary": true,
+                        "shortName": "Island"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4adcda80f964a5201c4821e3",
+                "location": {
+                    "address": "Am Lustgarten 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 304,
+                    "lat": 52.519371375135286,
+                    "lng": 13.399336871878868,
+                    "postalCode": "10117"
+                },
+                "name": "Museumsinsel (Museum Island)",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 4078,
+                    "tipCount": 34,
+                    "usersCount": 3402
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/default_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1f1931735",
+                        "name": "General Entertainment",
+                        "pluralName": "General Entertainment",
+                        "primary": true,
+                        "shortName": "Entertainment"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4dd3fbcce4cd6154148baeb9",
+                "location": {
+                    "address": "Schlo\u00dfplatz 5",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "crossStreet": "Unter Den Linden",
+                    "distance": 92,
+                    "lat": 52.517422163556766,
+                    "lng": 13.40057373046875,
+                    "postalCode": "10178"
+                },
+                "name": "Humboldt-Box",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 917,
+                    "tipCount": 15,
+                    "usersCount": 789
+                },
+                "url": "http://www.humboldt-box.com",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d190941735",
+                        "name": "History Museum",
+                        "pluralName": "History Museums",
+                        "primary": true,
+                        "shortName": "History Museum"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 203040",
+                    "phone": "+4930203040"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4adcda83f964a520aa4821e3",
+                "location": {
+                    "address": "Unter den Linden 2",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "crossStreet": "Zeughaus",
+                    "distance": 228,
+                    "lat": 52.517722483331326,
+                    "lng": 13.397108316421509,
+                    "postalCode": "10117"
+                },
+                "name": "Deutsches Historisches Museum",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 2431,
+                    "tipCount": 28,
+                    "usersCount": 2211
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/park_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d163941735",
+                        "name": "Park",
+                        "pluralName": "Parks",
+                        "primary": true,
+                        "shortName": "Park"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4adcda7cf964a5205f4721e3",
+                "location": {
+                    "address": "Am Lustgarten",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 212,
+                    "lat": 52.51857085263326,
+                    "lng": 13.399780305381821,
+                    "postalCode": "10178",
+                    "state": "Berlin"
+                },
+                "name": "Lustgarten",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 2529,
+                    "tipCount": 15,
+                    "usersCount": 1926
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1df941735",
+                        "name": "Bridge",
+                        "pluralName": "Bridges",
+                        "primary": true,
+                        "shortName": "Bridge"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4f37d449e4b0a1f1973bbb4a",
+                "location": {
+                    "address": "Werderstr.",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "crossStreet": "Schlosspl.",
+                    "distance": 91,
+                    "lat": 52.51585524448182,
+                    "lng": 13.399779796600342,
+                    "postalCode": "10117",
+                    "state": "BE"
+                },
+                "name": "Schleusenbr\u00fccke",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 64,
+                    "tipCount": 0,
+                    "usersCount": 27
+                },
+                "url": "http://de.wikipedia.org/wiki/Schleusenbr\u00fccke_(Berlin)",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1fa931735",
+                        "name": "Hotel",
+                        "pluralName": "Hotels",
+                        "primary": true,
+                        "shortName": "Hotel"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 4050460",
+                    "phone": "+49304050460",
+                    "twitter": "arcoteljohnf"
+                },
+                "hereNow": {
+                    "count": 2,
+                    "groups": [
+                        {
+                            "count": 2,
+                            "items": [],
+                            "name": "Other people here",
+                            "type": "others"
+                        }
+                    ]
+                },
+                "id": "4af7ed56f964a520880a22e3",
+                "location": {
+                    "address": "Werderscher Markt 11",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 219,
+                    "lat": 52.51524151928166,
+                    "lng": 13.397752046585083,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "ARCOTEL John F Berlin",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 1310,
+                    "tipCount": 18,
+                    "usersCount": 596
+                },
+                "storeId": "",
+                "url": "http://www.arcotelhotels.com/en/john_f_hotel_berlin/",
+                "verified": true
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d126941735",
+                        "name": "Government Building",
+                        "pluralName": "Government Buildings",
+                        "primary": true,
+                        "shortName": "Government"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 50000",
+                    "phone": "+493050000",
+                    "twitter": "auswaertigesamt"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4b169bfbf964a520ddba23e3",
+                "location": {
+                    "address": "Werderscher Markt 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "crossStreet": "Unterwasserstr.",
+                    "distance": 179,
+                    "lat": 52.51537209982938,
+                    "lng": 13.398427963256836,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "Ausw\u00e4rtiges Amt",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 729,
+                    "tipCount": 3,
+                    "usersCount": 440
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1fa931735",
+                        "name": "Hotel",
+                        "pluralName": "Hotels",
+                        "primary": true,
+                        "shortName": "Hotel"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 238280",
+                    "phone": "+4930238280"
+                },
+                "hereNow": {
+                    "count": 1,
+                    "groups": [
+                        {
+                            "count": 1,
+                            "items": [],
+                            "name": "Other people here",
+                            "type": "others"
+                        }
+                    ]
+                },
+                "id": "4b24db17f964a5202f6a24e3",
+                "location": {
+                    "address": "Karl-Liebknecht-Strasse 3",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 355,
+                    "lat": 52.519315449552046,
+                    "lng": 13.402934074401855,
+                    "postalCode": "10178"
+                },
+                "name": "Radisson Blu",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 4448,
+                    "tipCount": 49,
+                    "usersCount": 2155
+                },
+                "storeId": "BGMY",
+                "url": "http://www.radissonblu.com/hotel-berlin",
+                "verified": true
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1df941735",
+                        "name": "Bridge",
+                        "pluralName": "Bridges",
+                        "primary": true,
+                        "shortName": "Bridge"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4f806998e4b0fdf501522d4e",
+                "location": {
+                    "address": "Unter den Linden",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "crossStreet": "Schlosspl.",
+                    "distance": 153,
+                    "lat": 52.517720473161994,
+                    "lng": 13.398533280491918,
+                    "postalCode": "10178",
+                    "state": "BE"
+                },
+                "name": "Schlossbr\u00fccke",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 351,
+                    "tipCount": 2,
+                    "usersCount": 270
+                },
+                "url": "http://de.wikipedia.org/wiki/Schlossbr\u00fccke_(Berlin-Mitte)",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d181941735",
+                        "name": "Museum",
+                        "pluralName": "Museums",
+                        "primary": true,
+                        "shortName": "Museum"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 847123731",
+                    "phone": "+4930847123731",
+                    "twitter": "ddrmuseum"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4ae9c897f964a52062b621e3",
+                "location": {
+                    "address": "Karl-Liebknecht-Str. 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 344,
+                    "lat": 52.51941990433557,
+                    "lng": 13.40233325958252,
+                    "postalCode": "10178"
+                },
+                "name": "DDR Museum",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "description": "Unlocked every check-in",
+                            "icon": "check-in",
+                            "id": "4dc95a70b3ada60bb0f50bb6",
+                            "message": "Get your entrance ticket for the reduced fee (4 \u20ac instead of 6 \u20ac) when you're checked in!",
+                            "provider": "foursquare",
+                            "redemption": "standard",
+                            "title": "Check-in Special",
+                            "type": "frequency"
+                        }
+                    ]
+                },
+                "stats": {
+                    "checkinsCount": 3859,
+                    "tipCount": 57,
+                    "usersCount": 3012
+                },
+                "storeId": "",
+                "url": "http://www.ddr-museum.de",
+                "venuePage": {
+                    "id": "48098990"
+                },
+                "verified": true
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d164941735",
+                        "name": "Plaza",
+                        "pluralName": "Plazas",
+                        "primary": true,
+                        "shortName": "Plaza"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4b4cd68cf964a5200ac126e3",
+                "location": {
+                    "address": "Schlo\u00dfplatz 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 115,
+                    "lat": 52.51738299126093,
+                    "lng": 13.401238918304443,
+                    "postalCode": "10178",
+                    "state": "Berlin"
+                },
+                "name": "Schlossplatz",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 649,
+                    "tipCount": 5,
+                    "usersCount": 396
+                },
+                "url": "http://de.wikipedia.org/wiki/Schlo\u00dfplatz_(Berlin)",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d190941735",
+                        "name": "History Museum",
+                        "pluralName": "History Museums",
+                        "primary": true,
+                        "shortName": "History Museum"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4adcda81f964a520574821e3",
+                "location": {
+                    "address": "Am Lustgarten 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 295,
+                    "lat": 52.51925669362717,
+                    "lng": 13.399028778076172,
+                    "postalCode": "10178"
+                },
+                "name": "Altes Museum",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 1164,
+                    "tipCount": 12,
+                    "usersCount": 1082
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/education/tradeschool_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1ad941735",
+                        "name": "Trade School",
+                        "pluralName": "Trade Schools",
+                        "primary": true,
+                        "shortName": "Trade School"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4b75429cf964a5203f032ee3",
+                "location": {
+                    "address": "Schlo\u00dfplatz 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 128,
+                    "lat": 52.515692020531276,
+                    "lng": 13.401002883911133,
+                    "postalCode": "10178",
+                    "state": "BE"
+                },
+                "name": "European School of Management & Technology",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 389,
+                    "tipCount": 1,
+                    "usersCount": 162
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d164941735",
+                        "name": "Plaza",
+                        "pluralName": "Plazas",
+                        "primary": true,
+                        "shortName": "Plaza"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4d8f5ec6d4ec8cfac1a98989",
+                "location": {
+                    "address": "Unterwasserstra\u00dfe",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 104,
+                    "lat": 52.516661462978405,
+                    "lng": 13.398462557110303,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "Schinkelplatz",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 156,
+                    "tipCount": 2,
+                    "usersCount": 103
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1c4941735",
+                        "name": "Restaurant",
+                        "pluralName": "Restaurants",
+                        "primary": true,
+                        "shortName": "Restaurant"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 36444588",
+                    "phone": "+493036444588"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4bc769782f94d13a71e0117f",
+                "location": {
+                    "address": "J\u00e4gerstra\u00dfe 35",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 298,
+                    "lat": 52.514498295573624,
+                    "lng": 13.397409270774094,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "CHIPPS",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 1068,
+                    "tipCount": 45,
+                    "usersCount": 775
+                },
+                "url": "http://www.chipps.eu",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/eventspace_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d171941735",
+                        "name": "Event Space",
+                        "pluralName": "Event Spaces",
+                        "primary": true,
+                        "shortName": "Event Space"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4e71b6bdae6067986e9646f0",
+                "location": {
+                    "address": "Werderscher Markt 13",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 261,
+                    "lat": 52.515216,
+                    "lng": 13.396967,
+                    "postalCode": "10117",
+                    "state": "BE"
+                },
+                "name": "Quadriga Forum",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 611,
+                    "tipCount": 1,
+                    "usersCount": 324
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_monument_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d12d941735",
+                        "name": "Monument / Landmark",
+                        "pluralName": "Monuments / Landmarks",
+                        "primary": true,
+                        "shortName": "Landmark"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4adcda7df964a520b04721e3",
+                "location": {
+                    "address": "Unter den Linden 4",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 323,
+                    "lat": 52.51773554066627,
+                    "lng": 13.395552635192871,
+                    "postalCode": "10117",
+                    "state": "BE"
+                },
+                "name": "Neue Wache",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 764,
+                    "tipCount": 6,
+                    "usersCount": 672
+                },
+                "url": "http://de.wikipedia.org/wiki/Neue_Wache",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/education/academicbuilding_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d198941735",
+                        "name": "College Academic Building",
+                        "pluralName": "College Academic Buildings",
+                        "primary": true,
+                        "shortName": "Academic Building"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4c18ee7e4ff90f47661b0f49",
+                "location": {
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 147,
+                    "lat": 52.51612437758251,
+                    "lng": 13.401993624389661,
+                    "state": "Berlin"
+                },
+                "name": "Esmt",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 93,
+                    "tipCount": 3,
+                    "usersCount": 56
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/office_conferenceroom_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d127941735",
+                        "name": "Conference Room",
+                        "pluralName": "Conference Rooms",
+                        "primary": true,
+                        "shortName": "Conference room"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 44729400",
+                    "phone": "+493044729400"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4dfafd2618a8fc7fb43e81df",
+                "location": {
+                    "address": "Werderscher Markt 13",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 251,
+                    "lat": 52.51513147922454,
+                    "lng": 13.39727807409641,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "Quadriga Campus",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 219,
+                    "tipCount": 0,
+                    "usersCount": 44
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/religious_church_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d132941735",
+                        "name": "Church",
+                        "pluralName": "Churches",
+                        "primary": true,
+                        "shortName": "Church"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "524f0a5211d2631dabad42a4",
+                "location": {
+                    "cc": "DE",
+                    "country": "Germany",
+                    "distance": 148,
+                    "lat": 52.51766592756874,
+                    "lng": 13.398546482177357
+                },
+                "name": "Berlin Dome",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 7,
+                    "tipCount": 0,
+                    "usersCount": 7
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/education/collegeacademicbuildings_communications_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d19a941735",
+                        "name": "College Communications Building",
+                        "pluralName": "College Communications Buildings",
+                        "primary": true,
+                        "shortName": "Communications"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4cb7fa694c60a093bca035ca",
+                "location": {
+                    "address": "Werderscher Markt 13",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 250,
+                    "lat": 52.51515056527079,
+                    "lng": 13.397261846602623,
+                    "state": "Germany"
+                },
+                "name": "Quadriga Hochschule Berlin",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 263,
+                    "tipCount": 1,
+                    "usersCount": 49
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/auditorium_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d173941735",
+                        "name": "Auditorium",
+                        "pluralName": "Auditoriums",
+                        "primary": true,
+                        "shortName": "Auditorium"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4ae9613af964a520c9b421e3",
+                "location": {
+                    "address": "Franz\u00f6sische Stra\u00dfe 33",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 312,
+                    "lat": 52.514901,
+                    "lng": 13.396414,
+                    "postalCode": "10117",
+                    "state": "Germany"
+                },
+                "name": "Hauptstadtrepr\u00e4sentanz Deutsche Telekom AG",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 768,
+                    "tipCount": 2,
+                    "usersCount": 468
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/german_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d10d941735",
+                        "name": "German Restaurant",
+                        "pluralName": "German Restaurants",
+                        "primary": true,
+                        "shortName": "German"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "500fbae1e4b06b19286e62d2",
+                "location": {
+                    "address": "Unter den Linden 2",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 212,
+                    "lat": 52.51794445749753,
+                    "lng": 13.397676944732666,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "Caf\u00e9 im Zeughaus (DHM)",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 91,
+                    "tipCount": 3,
+                    "usersCount": 87
+                },
+                "url": "http://www.koflerkompanie.com/de/restaurants_cafedhm.html",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d124941735",
+                        "name": "Office",
+                        "pluralName": "Offices",
+                        "primary": true,
+                        "shortName": "Office"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4b7556a3f964a52013072ee3",
+                "location": {
+                    "address": "Unter den Linden 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 175,
+                    "lat": 52.517535,
+                    "lng": 13.397837,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "Hauptstadtrepr\u00e4sentanz Bertelsmann AG",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 560,
+                    "tipCount": 5,
+                    "usersCount": 350
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1df941735",
+                        "name": "Bridge",
+                        "pluralName": "Bridges",
+                        "primary": true,
+                        "shortName": "Bridge"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4da856e304376c33688549b1",
+                "location": {
+                    "address": "Rathausstr.",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 274,
+                    "lat": 52.517010852708545,
+                    "lng": 13.404006958007812,
+                    "postalCode": "10178",
+                    "state": "BE"
+                },
+                "name": "Rathausbr\u00fccke",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 312,
+                    "tipCount": 0,
+                    "usersCount": 131
+                },
+                "url": "http://de.wikipedia.org/wiki/Rathausbr\u00fccke_(Berlin)",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d12f941735",
+                        "name": "Library",
+                        "pluralName": "Libraries",
+                        "primary": true,
+                        "shortName": "Library"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4c4046e9af052d7f287e7b79",
+                "location": {
+                    "address": "Breite Str. 30-36",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 301,
+                    "lat": 52.51557707002007,
+                    "lng": 13.404073440977019,
+                    "postalCode": "10178",
+                    "state": "Berlin"
+                },
+                "name": "Berliner Stadtbibliothek | ZLB",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 335,
+                    "tipCount": 5,
+                    "usersCount": 154
+                },
+                "url": "http://www.zlb.de",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/icecream_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1c9941735",
+                        "name": "Ice Cream Shop",
+                        "pluralName": "Ice Cream Shops",
+                        "primary": true,
+                        "shortName": "Ice Cream"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 27908551",
+                    "phone": "+493027908551"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4bab615df964a520d9a43ae3",
+                "location": {
+                    "address": "Karl-Liebknecht-Stra\u00dfe 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 328,
+                    "lat": 52.519176,
+                    "lng": 13.402541,
+                    "postalCode": "10178",
+                    "state": "Berlin"
+                },
+                "name": "Bandy Brooks",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 238,
+                    "tipCount": 6,
+                    "usersCount": 189
+                },
+                "url": "http://www.bandybrooks.org",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/hotel_bar_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1d5941735",
+                        "name": "Hotel Bar",
+                        "pluralName": "Hotel Bars",
+                        "primary": true,
+                        "shortName": "Hotel Bar"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 238280",
+                    "phone": "+4930238280"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "507faaf3f31c44e07e35b2e6",
+                "location": {
+                    "address": "Karl Liebknecht Strasse 3",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "crossStreet": "at Radisson Blu Hotel, Berlin",
+                    "distance": 367,
+                    "lat": 52.5195113020674,
+                    "lng": 13.4027624130249,
+                    "postalCode": "10178"
+                },
+                "name": "Atrium Lobby Lounge & Bar",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 467,
+                    "tipCount": 7,
+                    "usersCount": 211
+                },
+                "storeId": "",
+                "url": "http://www.radissonblu.com/hotel-berlin",
+                "verified": true
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "primary": true,
+                        "shortName": "Coffee Shop"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4bc46a7474a9a59309bfd5f6",
+                "location": {
+                    "address": "Am Lustgarten",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "crossStreet": "Berliner Dom",
+                    "distance": 236,
+                    "lat": 52.51865511085633,
+                    "lng": 13.401237234688223,
+                    "postalCode": "10178",
+                    "state": "BE"
+                },
+                "name": "Einstein Coffeeshop",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 171,
+                    "tipCount": 4,
+                    "usersCount": 143
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/breakfast_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d143941735",
+                        "name": "Breakfast Spot",
+                        "pluralName": "Breakfast Spots",
+                        "primary": true,
+                        "shortName": "Breakfast"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 238283472",
+                    "phone": "+4930238283472"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4ba9f250f964a5203f3f3ae3",
+                "location": {
+                    "address": "Karl-Liebknecht-Stra\u00dfe 3",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "crossStreet": "at Radisson Blu Hotel, Berlin",
+                    "distance": 335,
+                    "lat": 52.51938073382084,
+                    "lng": 13.402161598205566,
+                    "postalCode": "10178",
+                    "state": "Germany"
+                },
+                "name": "Restaurant HEat",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 558,
+                    "tipCount": 14,
+                    "usersCount": 345
+                },
+                "storeId": "",
+                "url": "http://www.radissonblu.com/hotel-berlin",
+                "verified": true
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/diner_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d147941735",
+                        "name": "Diner",
+                        "pluralName": "Diners",
+                        "primary": true,
+                        "shortName": "Diner"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "526d2af0498e6fb370340405",
+                "location": {
+                    "cc": "DE",
+                    "country": "Germany",
+                    "distance": 166,
+                    "lat": 52.517276,
+                    "lng": 13.40225
+                },
+                "name": "Andy's Diner & Bar Berlin",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 2,
+                    "tipCount": 0,
+                    "usersCount": 1
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/conventioncenter_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1ff931735",
+                        "name": "Convention Center",
+                        "pluralName": "Convention Centers",
+                        "primary": true,
+                        "shortName": "Convention Center"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 44729500",
+                    "phone": "+493044729500",
+                    "twitter": "prkarriere"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4facdd2ee4b0d8a3db7c01da",
+                "location": {
+                    "address": "Werderschen Markt 13",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 249,
+                    "lat": 52.51517,
+                    "lng": 13.397259
+                },
+                "name": "depak - Deutsche Presseakademie",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 90,
+                    "tipCount": 2,
+                    "usersCount": 37
+                },
+                "url": "http://www.depak.de",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/cafe_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d16d941735",
+                        "name": "Caf\u00e9",
+                        "pluralName": "Caf\u00e9s",
+                        "primary": true,
+                        "shortName": "Caf\u00e9"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 28042307",
+                    "phone": "+493028042307"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4b65cbcef964a52038002be3",
+                "location": {
+                    "address": "Sankt-Wolfgang Str. 2",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 415,
+                    "lat": 52.52031300601141,
+                    "lng": 13.401278411765661,
+                    "postalCode": "10178"
+                },
+                "name": "Allegretto",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 500,
+                    "tipCount": 24,
+                    "usersCount": 444
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/government_monument_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d12d941735",
+                        "name": "Monument / Landmark",
+                        "pluralName": "Monuments / Landmarks",
+                        "primary": true,
+                        "shortName": "Landmark"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4adcda7df964a520614721e3",
+                "location": {
+                    "address": "Unter den LInden 7",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 236,
+                    "lat": 52.51717407175992,
+                    "lng": 13.396604061126709,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "Kronprinzenpalais",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 43,
+                    "tipCount": 0,
+                    "usersCount": 35
+                },
+                "url": "http://de.wikipedia.org/wiki/Kronprinzenpalais_(Berlin)",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/streetfood_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1cb941735",
+                        "name": "Food Truck",
+                        "pluralName": "Food Trucks",
+                        "primary": true,
+                        "shortName": "Food Truck"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "513b55d2e4b0bfae1adb24d0",
+                "location": {
+                    "cc": "DE",
+                    "country": "Germany",
+                    "distance": 172,
+                    "lat": 52.517767,
+                    "lng": 13.398202
+                },
+                "name": "Angie's Grill-Imbiss",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 9,
+                    "tipCount": 0,
+                    "usersCount": 9
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/sandwiches_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1c5941735",
+                        "name": "Sandwich Place",
+                        "pluralName": "Sandwich Places",
+                        "primary": true,
+                        "shortName": "Sandwiches"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4df3b7f96284fefe8fc364e8",
+                "location": {
+                    "address": "St.-Wolfgang-Str. 2",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 370,
+                    "lat": 52.51985616995437,
+                    "lng": 13.401571631372253,
+                    "postalCode": "10178"
+                },
+                "name": "Wrap Me",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 272,
+                    "tipCount": 7,
+                    "usersCount": 221
+                },
+                "url": "http://wrapme.de",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d130941735",
+                        "name": "Building",
+                        "pluralName": "Buildings",
+                        "primary": true,
+                        "shortName": "Building"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4c87c4cd32f2a14343acf027",
+                "location": {
+                    "address": "Werderscher Markt",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 106,
+                    "lat": 52.51594012069647,
+                    "lng": 13.398975133895874,
+                    "postalCode": "10117",
+                    "state": "BE"
+                },
+                "name": "Schinkelsche Bauakademie",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 25,
+                    "tipCount": 2,
+                    "usersCount": 23
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1df941735",
+                        "name": "Bridge",
+                        "pluralName": "Bridges",
+                        "primary": true,
+                        "shortName": "Bridge"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4f2530f0e4b0020c2f8d2f97",
+                "location": {
+                    "address": "Karl-Liebknecht-Str.",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 272,
+                    "lat": 52.51866260152835,
+                    "lng": 13.40233325958252,
+                    "postalCode": "10178",
+                    "state": "BE"
+                },
+                "name": "Liebknechtbr\u00fccke",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 163,
+                    "tipCount": 0,
+                    "usersCount": 133
+                },
+                "verified": false
+            },
+            {
+                "categories": [],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4be688ea910020a1386bd414",
+                "location": {
+                    "address": "Unter den Linden 2",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 204,
+                    "lat": 52.51794219016876,
+                    "lng": 13.397827148437111,
+                    "state": "Berlin"
+                },
+                "name": "Museumscafe",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 22,
+                    "tipCount": 1,
+                    "usersCount": 21
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/busstation_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1fe931735",
+                        "name": "Bus Station",
+                        "pluralName": "Bus Stations",
+                        "primary": true,
+                        "shortName": "Bus Station"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "51e41398498e3f6d1aa472b4",
+                "location": {
+                    "cc": "DE",
+                    "country": "Germany",
+                    "distance": 210,
+                    "lat": 52.51836,
+                    "lng": 13.401387
+                },
+                "name": "H Lustgarten",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 3,
+                    "tipCount": 0,
+                    "usersCount": 3
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/fleamarket_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1f7941735",
+                        "name": "Flea Market",
+                        "pluralName": "Flea Markets",
+                        "primary": true,
+                        "shortName": "Flea Market"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4dc69e862271f2705149bb6b",
+                "location": {
+                    "address": "Am Zeughaus",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 246,
+                    "lat": 52.51838840246553,
+                    "lng": 13.397709131240845,
+                    "state": "Berlin"
+                },
+                "name": "Kunstmarkt am Zeughaus",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 67,
+                    "tipCount": 1,
+                    "usersCount": 65
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/medical_dentist_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d178941735",
+                        "name": "Dentist's Office",
+                        "pluralName": "Dentist's Offices",
+                        "primary": true,
+                        "shortName": "Dentist's Office"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4b5f16ddf964a52078a529e3",
+                "location": {
+                    "address": "Jaegerstrasse 41",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "crossStreet": "Oberwallstrasse",
+                    "distance": 310,
+                    "lat": 52.514497698099774,
+                    "lng": 13.397117713872843,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "Dr.  Felix Zaritzki",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 63,
+                    "tipCount": 1,
+                    "usersCount": 21
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_art_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d18f941735",
+                        "name": "Art Museum",
+                        "pluralName": "Art Museums",
+                        "primary": true,
+                        "shortName": "Art Museum"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4adcda80f964a520394821e3",
+                "location": {
+                    "address": "Werderscher Markt",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 191,
+                    "lat": 52.51584871553543,
+                    "lng": 13.397516012191772,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "Friedrichswerdersche Kirche",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 112,
+                    "tipCount": 4,
+                    "usersCount": 93
+                },
+                "url": "http://de.wikipedia.org/wiki/Friedrichswerdersche_Kirche",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d1e2931735",
+                        "name": "Art Gallery",
+                        "pluralName": "Art Galleries",
+                        "primary": true,
+                        "shortName": "Art Gallery"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4dbc1fa1a86e0e98a1daa36d",
+                "location": {
+                    "address": "Oberwallstr. 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 233,
+                    "lat": 52.516260037262676,
+                    "lng": 13.396625518798828,
+                    "postalCode": "10117",
+                    "state": "Berlin"
+                },
+                "name": "Schinkel Pavillion",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 49,
+                    "tipCount": 0,
+                    "usersCount": 32
+                },
+                "url": "http://www.schinkelpavillon.de",
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/german_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d10d941735",
+                        "name": "German Restaurant",
+                        "pluralName": "German Restaurants",
+                        "primary": true,
+                        "shortName": "German"
+                    }
+                ],
+                "contact": {
+                    "formattedPhone": "+49 30 847123737",
+                    "phone": "+4930847123737"
+                },
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4cbc93f0a33bb1f7d1979afd",
+                "location": {
+                    "address": "Karl-Liebknecht-Stra\u00dfe 1",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 367,
+                    "lat": 52.51982466427605,
+                    "lng": 13.401603698730469,
+                    "postalCode": "10178",
+                    "state": "Berlin"
+                },
+                "name": "DDR-Restaurant Domklause",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "description": "Unlocked every check-in",
+                            "icon": "check-in",
+                            "id": "4dc95b76b3ada60bb0f511c1",
+                            "message": "Get 10% discount on your own bill when you're checked in!",
+                            "provider": "foursquare",
+                            "redemption": "standard",
+                            "title": "Check-in Special",
+                            "type": "frequency"
+                        }
+                    ]
+                },
+                "stats": {
+                    "checkinsCount": 710,
+                    "tipCount": 14,
+                    "usersCount": 384
+                },
+                "storeId": "",
+                "url": "http://www.ddr-restaurant.de",
+                "venuePage": {
+                    "id": "48098994"
+                },
+                "verified": true
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d124941735",
+                        "name": "Office",
+                        "pluralName": "Offices",
+                        "primary": true,
+                        "shortName": "Office"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4bced9e9937ca593b114af92",
+                "location": {
+                    "cc": "DE",
+                    "country": "Germany",
+                    "distance": 389,
+                    "lat": 52.51995523120331,
+                    "lng": 13.401947021484375
+                },
+                "name": "BMG Headoffice",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 322,
+                    "tipCount": 0,
+                    "usersCount": 24
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/travel/boat_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d12d951735",
+                        "name": "Boat or Ferry",
+                        "pluralName": "Boats or Ferries",
+                        "primary": true,
+                        "shortName": "Boat / Ferry"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4d987b59af3d236a52d03cc7",
+                "location": {
+                    "cc": "DE",
+                    "country": "Germany",
+                    "distance": 397,
+                    "lat": 52.52018348,
+                    "lng": 13.401058
+                },
+                "name": "Bootstour auf der Spree",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 327,
+                    "tipCount": 0,
+                    "usersCount": 235
+                },
+                "verified": false
+            },
+            {
+                "categories": [
+                    {
+                        "icon": {
+                            "prefix": "https://ss1.4sqi.net/img/categories_v2/food/german_",
+                            "suffix": ".png"
+                        },
+                        "id": "4bf58dd8d48988d10d941735",
+                        "name": "German Restaurant",
+                        "pluralName": "German Restaurants",
+                        "primary": true,
+                        "shortName": "German"
+                    }
+                ],
+                "contact": {},
+                "hereNow": {
+                    "count": 0,
+                    "groups": []
+                },
+                "id": "4d32fd98c6cba35d3b94267a",
+                "location": {
+                    "address": "Rathausstr. 25",
+                    "cc": "DE",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "distance": 337,
+                    "lat": 52.51730464656447,
+                    "lng": 13.404865264892578,
+                    "postalCode": "10178",
+                    "state": "Berlin"
+                },
+                "name": "Julchen Hoppe",
+                "referralId": "v-1383781076",
+                "restricted": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "stats": {
+                    "checkinsCount": 75,
+                    "tipCount": 3,
+                    "usersCount": 62
+                },
+                "url": "http://www.prostmahlzeit.de/julchenhoppe/index.html",
+                "verified": false
+            }
+        ]
+    }
+}
