@@ -16,7 +16,7 @@ $console
         ))
     ->setDescription('Import a JSON response from the Foursquare venues API')
     ->setCode(function (InputInterface $input, OutputInterface $output) use ($app) {
-            $m = new MongoClient();
+            $m = $app['mongoclient'];
             $c = $m->silex->venues;
 
             $data = json_decode(file_get_contents($input->getArgument('file')), true);
