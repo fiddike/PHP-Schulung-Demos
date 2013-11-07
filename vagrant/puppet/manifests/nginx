@@ -1,21 +1,28 @@
 server {
     listen 80;
+	root /vagrant/web/silex-skeleton/web
+	index.php;
 
-    server_name _;
-    root /vagrant/web;
-
-    error_log /var/log/nginx/PHP-Schulung-Demos.error.log;
-    access_log /var/log/nginx/PHP-Schulung-Demos.access.log;
-
-    location  /  {
-        autoindex  on;
+    #site root is redirected to the app boot script
+    location = / {
+        try_files @site @site;
     }
 
-    location ~ \.php(/|$) {
-        fastcgi_pass   127.0.0.1:9000;
-        fastcgi_split_path_info ^(.+\.php)(/.*)$;
+    #all other locations try other files first and go to our front controller if none of them exists
+    location / {
+        try_files $uri $uri/ @site;
+    }
+
+    #return 404 for all php files as we do have a front controller
+    location ~ \.php$ {
+        return 404;
+    }
+
+    location @site {
+        fastcgi_pass   unix:/var/run/php-fpm/www.sock;
         include fastcgi_params;
-        fastcgi_param  SCRIPT_FILENAME    $document_root$fastcgi_script_name;
-        fastcgi_param  HTTPS              off;
+        fastcgi_param  SCRIPT_FILENAME $document_root/index.php;
+        #uncomment when running via https
+        #fastcgi_param HTTPS on;
     }
 }
