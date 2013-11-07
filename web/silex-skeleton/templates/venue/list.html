@@ -14,12 +14,11 @@
         </tr>
         {% for venue in venues %}
             <tr>
-                <td><a href="{{ path('venue', { id: venue._id }) }}">{{ venue.name }}</a></td>
+                <td><a href="#">{{ venue.name }}</a></td>
                 <td>{{ venue.location.address|default('') }}</td>
                 <td>{{ venue.location.city|default('') }}</td>
                 <td>
                     {% if venue.categories is not empty %}
-                        <img src="{{ icon_url(venue.categories[0], 32) }}" style="background-color: #ccc">
                         {{ venue.categories[0].name }}
                     {% endif %}
                 </td>
