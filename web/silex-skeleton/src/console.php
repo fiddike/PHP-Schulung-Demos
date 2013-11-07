@@ -17,7 +17,6 @@ $console
     ->setDescription('Import a JSON response from the Foursquare venues API')
     ->setCode(function (InputInterface $input, OutputInterface $output) use ($app) {
             $m = $app['mongoclient'];
-            $c = $m->silex->venues;
 
             $data = json_decode(file_get_contents($input->getArgument('file')), true);
             $venues = $data['response']['venues'];
@@ -34,7 +33,7 @@ $console
                     $venue['loc'] = $point->jsonSerialize();
                 }
 
-                $gle = $c->save($venue);
+                $gle = $app['nongoclient.venues'];
 
                 if ($gle['updatedExisting']) {
                     $updated++;
