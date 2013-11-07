@@ -21,3 +21,9 @@ $app->error(function (\Exception $e, $code) use ($app) {
 
     return new Response($app['twig']->render($page, array('code' => $code)), $code);
 });
+
+$app->get('/venues', function () use ($app) {
+
+    })
+    ->bind('venues')
+;
