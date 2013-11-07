@@ -3,8 +3,59 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d09ddc58571bc65ff56464d996f6f8f6",
+    "hash": "9e4f8d5ae0d22c91c54a37e22f4c4ea1",
     "packages": [
+        {
+            "name": "jmikola/geojson",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jmikola/geojson.git",
+                "reference": "1fb2a8ca42be5571b0eb66407754d8c7f77d9904"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jmikola/geojson/zipball/1fb2a8ca42be5571b0eb66407754d8c7f77d9904",
+                "reference": "1fb2a8ca42be5571b0eb66407754d8c7f77d9904",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "GeoJson\\": "src/"
+                },
+                "classmap": [
+                    "stubs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Mikola",
+                    "email": "jmikola@gmail.com",
+                    "homepage": "http://jmikola.net"
+                }
+            ],
+            "description": "GeoJSON implementation for PHP",
+            "homepage": "https://github.com/jmikola/geojson",
+            "keywords": [
+                "geo",
+                "geojson",
+                "geospatial"
+            ],
+            "time": "2013-09-11 16:15:44"
+        },
         {
             "name": "monolog/monolog",
             "version": "1.6.0",
@@ -1772,9 +1823,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "jmikola/geojson": 20
+    },
     "platform": {
         "php": ">=5.3.3"
     },
