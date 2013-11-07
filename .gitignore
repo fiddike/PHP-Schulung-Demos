@@ -1,3 +1,5 @@
 .idea
 phpunit.phar
 composer.phar
+vendor
+web/vendor
