@@ -23,10 +23,8 @@ $app->error(function (\Exception $e, $code) use ($app) {
 });
 
 $app->get('/venues', function () use ($app) {
-        $c = $app['mongoclient']->silex->venues;
-
         return $app['twig']->render('venue/list.html', array(
-                'venues' => $c->find(),
+                'venues' => $app['mongoclient.venues']->find(),
         ));
     })
     ->bind('venues')
