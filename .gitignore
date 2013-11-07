@@ -3,3 +3,4 @@ phpunit.phar
 composer.phar
 vendor
 web/vendor
+web/silex-skeleton/vendor
