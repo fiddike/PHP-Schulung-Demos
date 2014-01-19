@@ -1,3 +1,8 @@
+php_schulung_de_config_demo:
+    resource: "@PhpSchulungDeConfigDemoBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 php_schulung_de_form_demo:
     resource: "@PhpSchulungDeFormDemoBundle/Controller/"
     type:     annotation
