@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new PhpSchulungDe\SessionDemoBundle\PhpSchulungDeSessionDemoBundle(),
             new PhpSchulungDe\FormDemoBundle\PhpSchulungDeFormDemoBundle(),
             new PhpSchulungDe\ConfigDemoBundle\PhpSchulungDeConfigDemoBundle(),
+            new Egulias\ListenersDebugCommandBundle\EguliasListenersDebugCommandBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
