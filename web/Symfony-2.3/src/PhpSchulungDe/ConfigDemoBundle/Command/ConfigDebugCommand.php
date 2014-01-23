@@ -26,8 +26,9 @@ class ConfigDebugCommand extends ContainerAwareCommand
                 /** @var  $listeners array */
                 $listeners = $this->getContainer()->get('event_dispatcher')->getListeners();
                 print_r (array_keys($listeners));
-
-                $output->writeln('foo');
+                $output->writeln('');
+                $output->writeln(get_class($listeners['kernel.view'][0][0]));
+                $output->writeln('');
                 break;
             default:
                 $output->writeln('This config part has not yet been implemented.');
