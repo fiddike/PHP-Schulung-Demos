@@ -11,3 +11,9 @@ Vagrant::Config.run do |config|
         puppet.manifests_path = "puppet/manifests"
     end
 end
+
+Vagrant.configure("2") do |config|
+    config.vm.provider "virtualbox" do |v|
+        v.name = "PHP-Schulung-Demos.git_192.168.23.100"
+    end
+end
