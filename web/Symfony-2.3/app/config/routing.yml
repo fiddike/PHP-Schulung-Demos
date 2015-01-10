@@ -1,3 +1,8 @@
+hengstenberg_experimente:
+    resource: "@HengstenbergExperimenteBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 php_schulung_de_config_demo:
     resource: "@PhpSchulungDeConfigDemoBundle/Controller/"
     type:     annotation
