@@ -20,11 +20,7 @@ class DefaultController extends Controller
         $bestellParameter = new Bestellen();
         $form = $this->createForm(
             new BestellenAktuellerKundeType(),
-            $bestellParameter,
-            array(
-                'action' => $this->generateUrl(''),
-                'method' => 'POST',
-            )
+            $bestellParameter
         );
 
         return array(

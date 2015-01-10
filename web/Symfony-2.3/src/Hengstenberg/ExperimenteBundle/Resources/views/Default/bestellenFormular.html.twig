@@ -3,4 +3,6 @@
     <p>Bestellung fehlgeschlagen: {{ bestellenFehler }}</p>
 {% endif %}
 
-{{ form(bestellFormular, {'attr': {'id': 'bestellFormular'}}) }}
+<form action="{{ path('bestellen') }}" method="post" id="bestellFormular__NEUE_ID">
+{{ form_widget(bestellFormular) }}
+</form>
