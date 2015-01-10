@@ -2,18 +2,33 @@
 
 namespace Hengstenberg\ExperimenteBundle\Controller;
 
+use Hengstenberg\ExperimenteBundle\Entity\Bestellen;
+use Hengstenberg\ExperimenteBundle\Form\BestellenAktuellerKundeType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
 {
     /**
-     * @Route("/hello/{name}")
+     * @Route("/hb-exp/bestellen", name="bestellen")
      * @Template()
      */
-    public function indexAction($name)
+    public function bestellenAction(Request $request)
     {
-        return array('name' => $name);
+        $bestellParameter = new Bestellen();
+        $form = $this->createForm(
+            new BestellenAktuellerKundeType(),
+            $bestellParameter,
+            array(
+                'action' => $this->generateUrl(''),
+                'method' => 'POST',
+            )
+        );
+
+        return array(
+            'bestellFormular' => $form->createView(),
+        );
     }
 }
