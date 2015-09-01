@@ -1,0 +1,8 @@
+<h2>Bestellen</h2>
+{% if bestellenFehler|default(false) %}
+    <p>Bestellung fehlgeschlagen: {{ bestellenFehler }}</p>
+{% endif %}
+
+<form action="{{ path('bestellen') }}" method="post" id="bestellFormular__NEUE_ID">
+{{ form_widget(bestellFormular) }}
+</form>
