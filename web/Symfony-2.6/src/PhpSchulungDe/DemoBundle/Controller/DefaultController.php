@@ -26,7 +26,7 @@ class DefaultController extends Controller
      */
     public function dumpAction()
     {
-        $foo = array('a', 'b', 'c');
+        $foo = array('a', 'b', 'c', 'ddddd','eeeee');
         dump($foo);
 
         return array();
@@ -42,11 +42,17 @@ class DefaultController extends Controller
         $i = 1;
         $k = 2;
 
+        $foo[] = 'asdasdasd';
+
         $i = 10;
         $k = 20;
 
+        $foo[] = '55655555';
+
         $p = 100;
         $p = 200;
+
+        $foo[] = ')))sas)((((';
 
         throw new NotFoundHttpException ('Debug me, please!');
     }
