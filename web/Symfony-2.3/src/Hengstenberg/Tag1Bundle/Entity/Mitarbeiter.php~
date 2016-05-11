@@ -1,0 +1,63 @@
+<?php
+
+namespace Hengstenberg\Tag1Bundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Mitarbeiter
+ *
+ * @ORM\Table()
+ * @ORM\Entity
+ */
+class Mitarbeiter
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @ORM\Column(type="string", length=10)
+     */
+    private $vorname;
+
+    /**
+     * @ORM\Column(type="string", length=50)
+     */
+    private $nachname;
+
+    /**
+     * @ORM\Column(type="string", length=50)
+     */
+    private $telefonnummer;
+
+    /**
+     * @ORM\Column(type="date")
+     */
+    private $einstellungsDatum;
+
+    /**
+     * @ORM\Column(type="string", length=100)
+     */
+    private $email;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $gehalt;
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+}
